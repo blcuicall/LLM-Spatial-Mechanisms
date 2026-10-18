@@ -1,0 +1,9 @@
+{
+  "reconstruction_error": 0.7975375652313232,
+  "explained_variance": 0.9965499639511108,
+  "sparsity": 0.0023381521459668875,
+  "l0": 268.15802001953125,
+  "d_sae": 114688,
+  "layer": 20,
+  "model_name": "Qwen/Qwen2.5-7B-Instruct"
+}

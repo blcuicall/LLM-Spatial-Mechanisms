@@ -1,0 +1,91 @@
+======================================================================
+SAE ANALYSIS REPORT - Layer 15
+======================================================================
+
+MODEL CONFIGURATION
+----------------------------------------------------------------------
+Layer: 15
+SAE Dimension: 28672
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Ridge Regression:
+  - R²: -0.0032
+  - MAE: 3.1893
+  - R²(X): -0.0038
+  - R²(Y): -0.0007
+  - R²(Z): -0.0051
+
+Lasso Regression (Sparse):
+  - R²: -0.0032
+  - MAE: 3.1893
+  - Non-zero features: 0/28672 (0.00%)
+
+TOP 10 MOST IMPORTANT FEATURES
+----------------------------------------------------------------------
+ 1. Feature 21920 | Importance: 0.000414 | Freq: 0.0020
+ 2. Feature 9549 | Importance: 0.000000 | Freq: 0.0000
+ 3. Feature 9550 | Importance: 0.000000 | Freq: 0.0000
+ 4. Feature 9551 | Importance: 0.000000 | Freq: 0.0000
+ 5. Feature 9552 | Importance: 0.000000 | Freq: 0.0000
+ 6. Feature 9553 | Importance: 0.000000 | Freq: 0.0000
+ 7. Feature 9554 | Importance: 0.000000 | Freq: 0.0000
+ 8. Feature 9555 | Importance: 0.000000 | Freq: 0.0000
+ 9. Feature 9556 | Importance: 0.000000 | Freq: 0.0000
+10. Feature 9557 | Importance: 0.000000 | Freq: 0.0000
+
+TOP FEATURES PER DIMENSION
+----------------------------------------------------------------------
+
+X-axis:
+  1. Feature 21920 | Coefficient: 0.000917
+  2. Feature 9549 | Coefficient: 0.000000
+  3. Feature 9550 | Coefficient: 0.000000
+  4. Feature 9551 | Coefficient: 0.000000
+  5. Feature 9552 | Coefficient: 0.000000
+
+Y-axis:
+  1. Feature 21920 | Coefficient: 0.000140
+  2. Feature 9549 | Coefficient: 0.000000
+  3. Feature 9550 | Coefficient: 0.000000
+  4. Feature 9551 | Coefficient: 0.000000
+  5. Feature 9552 | Coefficient: 0.000000
+
+Z-axis:
+  1. Feature 21920 | Coefficient: 0.000184
+  2. Feature 9549 | Coefficient: 0.000000
+  3. Feature 9550 | Coefficient: 0.000000
+  4. Feature 9551 | Coefficient: 0.000000
+  5. Feature 9552 | Coefficient: 0.000000
+
+
+INTERVENTION EXPERIMENT RESULTS
+----------------------------------------------------------------------
+Random Baseline (avg change): 67.0608
+
+
+Overall Features:
+  Feature 21920 | Change: 67.0618 | Orig Activation: 0.0000
+  Feature 9549 | Change: 67.0475 | Orig Activation: 0.0000
+  Feature 9550 | Change: 67.0581 | Orig Activation: 0.0000
+  Feature 9551 | Change: 67.0556 | Orig Activation: 0.0000
+  Feature 9552 | Change: 67.0613 | Orig Activation: 0.0000
+
+X-axis Features:
+  Feature 21920 | Change: 67.0618 | Orig Activation: 0.0000
+  Feature 9549 | Change: 67.0475 | Orig Activation: 0.0000
+  Feature 9550 | Change: 67.0581 | Orig Activation: 0.0000
+
+Y-axis Features:
+  Feature 21920 | Change: 67.0618 | Orig Activation: 0.0000
+  Feature 9549 | Change: 67.0475 | Orig Activation: 0.0000
+  Feature 9550 | Change: 67.0581 | Orig Activation: 0.0000
+
+Z-axis Features:
+  Feature 21920 | Change: 67.0618 | Orig Activation: 0.0000
+  Feature 9549 | Change: 67.0475 | Orig Activation: 0.0000
+  Feature 9550 | Change: 67.0581 | Orig Activation: 0.0000
+
+======================================================================
+End of Report
+======================================================================

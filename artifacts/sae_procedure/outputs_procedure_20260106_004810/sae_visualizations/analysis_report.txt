@@ -1,0 +1,92 @@
+======================================================================
+SAE ANALYSIS REPORT (Spatial Procedure) - Layer 20
+======================================================================
+
+MODEL CONFIGURATION
+----------------------------------------------------------------------
+Layer: 20
+SAE Dimension: 114688
+Task: Spatial Procedure Execution (coordinate transformation)
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Ridge Regression:
+  - R²: 0.1584
+  - MAE: 2.2426
+  - R²(X): 0.3732
+  - R²(Y): 0.0485
+  - R²(Z): 0.0534
+
+Lasso Regression (Sparse):
+  - R²: 0.1103
+  - MAE: 2.2968
+  - Non-zero features: 40/114688 (0.03%)
+
+TOP 10 MOST IMPORTANT FEATURES
+----------------------------------------------------------------------
+ 1. Feature 26949 | Importance: 5.901215 | Freq: 1.0000
+ 2. Feature 56622 | Importance: 5.060359 | Freq: 1.0000
+ 3. Feature 100215 | Importance: 4.996429 | Freq: 1.0000
+ 4. Feature 80986 | Importance: 4.564972 | Freq: 1.0000
+ 5. Feature 91408 | Importance: 4.228623 | Freq: 0.8580
+ 6. Feature 37361 | Importance: 4.004494 | Freq: 1.0000
+ 7. Feature 12249 | Importance: 3.873601 | Freq: 0.6370
+ 8. Feature 72374 | Importance: 3.772699 | Freq: 0.4065
+ 9. Feature 95555 | Importance: 3.727245 | Freq: 1.0000
+10. Feature 7367 | Importance: 3.402546 | Freq: 0.0930
+
+TOP FEATURES PER DIMENSION
+----------------------------------------------------------------------
+
+X-axis:
+  1. Feature 80986 | Coefficient: 7.842301
+  2. Feature 56622 | Coefficient: 7.108595
+  3. Feature 113477 | Coefficient: 6.662693
+  4. Feature 91408 | Coefficient: 6.571555
+  5. Feature 12648 | Coefficient: 6.438440
+
+Y-axis:
+  1. Feature 26949 | Coefficient: 9.929970
+  2. Feature 56622 | Coefficient: 6.886295
+  3. Feature 12249 | Coefficient: 6.832446
+  4. Feature 106418 | Coefficient: 5.981881
+  5. Feature 91408 | Coefficient: 5.839396
+
+Z-axis:
+  1. Feature 100215 | Coefficient: 9.320514
+  2. Feature 7367 | Coefficient: 6.423744
+  3. Feature 43418 | Coefficient: 6.036306
+  4. Feature 72374 | Coefficient: 5.152646
+  5. Feature 102713 | Coefficient: 5.000322
+
+
+INTERVENTION EXPERIMENT RESULTS
+----------------------------------------------------------------------
+Random Baseline (avg change): 8.5534
+
+
+Overall Features:
+  Feature 26949 | Change: 8.5357 | Orig Activation: 0.8841
+  Feature 56622 | Change: 13.9812 | Orig Activation: 19.9450
+  Feature 100215 | Change: 8.8479 | Orig Activation: 6.2985
+  Feature 80986 | Change: 8.6640 | Orig Activation: 5.1347
+  Feature 91408 | Change: 8.5546 | Orig Activation: 0.1799
+
+X-axis Features:
+  Feature 80986 | Change: 8.6640 | Orig Activation: 5.1347
+  Feature 56622 | Change: 13.9812 | Orig Activation: 19.9450
+  Feature 113477 | Change: 8.5150 | Orig Activation: 2.2303
+
+Y-axis Features:
+  Feature 26949 | Change: 8.5357 | Orig Activation: 0.8841
+  Feature 56622 | Change: 13.9812 | Orig Activation: 19.9450
+  Feature 12249 | Change: 8.5528 | Orig Activation: 0.1379
+
+Z-axis Features:
+  Feature 100215 | Change: 8.8479 | Orig Activation: 6.2985
+  Feature 7367 | Change: 8.6218 | Orig Activation: 0.0033
+  Feature 43418 | Change: 8.5934 | Orig Activation: 4.2718
+
+======================================================================
+End of Report
+======================================================================

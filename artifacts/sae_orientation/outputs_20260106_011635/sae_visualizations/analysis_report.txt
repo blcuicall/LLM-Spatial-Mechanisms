@@ -1,0 +1,80 @@
+======================================================================
+SAE ANALYSIS REPORT - Layer 20
+======================================================================
+
+MODEL CONFIGURATION
+----------------------------------------------------------------------
+Layer: 20
+SAE Dimension: 114688
+Target Dimensions: 2
+Dimension Names: cos(θ), sin(θ)
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Ridge Regression:
+  - R²: -0.0257
+  - MAE: 0.5332
+  - R²(cos(θ)): -0.0449
+  - R²(sin(θ)): -0.0065
+
+Lasso Regression (Sparse):
+  - R²: -0.0033
+  - MAE: 0.5075
+  - Non-zero features: 1/114688 (0.00%)
+
+TOP 10 MOST IMPORTANT FEATURES
+----------------------------------------------------------------------
+ 1. Feature 89139 | Importance: 0.713126 | Freq: 0.2205
+ 2. Feature 8366 | Importance: 0.591067 | Freq: 0.6825
+ 3. Feature 1809 | Importance: 0.454974 | Freq: 0.7760
+ 4. Feature 62450 | Importance: 0.441945 | Freq: 0.1615
+ 5. Feature 95841 | Importance: 0.437950 | Freq: 1.0000
+ 6. Feature 111895 | Importance: 0.418284 | Freq: 0.6545
+ 7. Feature 105524 | Importance: 0.409700 | Freq: 1.0000
+ 8. Feature 51998 | Importance: 0.399903 | Freq: 0.8725
+ 9. Feature 70384 | Importance: 0.399170 | Freq: 0.0530
+10. Feature 27297 | Importance: 0.375365 | Freq: 0.3135
+
+TOP FEATURES PER DIMENSION
+----------------------------------------------------------------------
+
+cos(θ):
+  1. Feature 1809 | Coefficient: 0.833021
+  2. Feature 8366 | Coefficient: 0.771440
+  3. Feature 105524 | Coefficient: 0.755203
+  4. Feature 89139 | Coefficient: 0.667357
+  5. Feature 27297 | Coefficient: 0.629349
+
+sin(θ):
+  1. Feature 89139 | Coefficient: 0.758896
+  2. Feature 62450 | Coefficient: 0.723578
+  3. Feature 51998 | Coefficient: 0.697202
+  4. Feature 18751 | Coefficient: 0.626446
+  5. Feature 111895 | Coefficient: 0.570114
+
+
+INTERVENTION EXPERIMENT RESULTS
+----------------------------------------------------------------------
+Random Baseline (avg change): 7.3564
+
+
+Overall Features:
+  Feature 89139 | Change: 7.3301 | Orig Activation: 0.0497
+  Feature 8366 | Change: 7.3695 | Orig Activation: 0.1545
+  Feature 1809 | Change: 7.3614 | Orig Activation: 0.4752
+  Feature 62450 | Change: 7.3331 | Orig Activation: 0.0457
+  Feature 95841 | Change: 7.2985 | Orig Activation: 3.3278
+
+Costheta Features:
+  Feature 1809 | Change: 7.3614 | Orig Activation: 0.4752
+  Feature 8366 | Change: 7.3695 | Orig Activation: 0.1545
+  Feature 105524 | Change: 7.3772 | Orig Activation: 6.3095
+
+Sintheta Features:
+  Feature 89139 | Change: 7.3301 | Orig Activation: 0.0497
+  Feature 62450 | Change: 7.3331 | Orig Activation: 0.0457
+  Feature 51998 | Change: 7.3079 | Orig Activation: 0.4944
+
+======================================================================
+End of Report
+======================================================================

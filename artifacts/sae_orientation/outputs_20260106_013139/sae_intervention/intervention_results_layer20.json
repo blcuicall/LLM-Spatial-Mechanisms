@@ -1,0 +1,2062 @@
+{
+  "overall": {
+    "feature_43487": {
+      "feature_idx": 43487,
+      "avg_change": 8.742828993797302,
+      "avg_activation_orig": 0.18428107429062948,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.274240970611572,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.778620719909668,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.665213584899902,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.121994018554688,
+          "feature_activation_orig": 0.4786452651023865,
+          "feature_activation_intervened": 0.957290530204773
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.518954277038574,
+          "feature_activation_orig": 0.03781522065401077,
+          "feature_activation_intervened": 0.07563044130802155
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.35957145690918,
+          "feature_activation_orig": 0.46271035075187683,
+          "feature_activation_intervened": 0.9254207015037537
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.376442909240723,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.230215549468994,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.802423000335693,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.418804168701172,
+          "feature_activation_orig": 0.1552959531545639,
+          "feature_activation_intervened": 0.3105919063091278
+        }
+      ]
+    },
+    "feature_37435": {
+      "feature_idx": 37435,
+      "avg_change": 8.821269087791443,
+      "avg_activation_orig": 3.6239642453193666,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.336203575134277,
+          "feature_activation_orig": 3.6261966228485107,
+          "feature_activation_intervened": 7.2523932456970215
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.859078407287598,
+          "feature_activation_orig": 3.7247636318206787,
+          "feature_activation_intervened": 7.449527263641357
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.709108829498291,
+          "feature_activation_orig": 3.66326642036438,
+          "feature_activation_intervened": 7.32653284072876
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.176453590393066,
+          "feature_activation_orig": 3.9698150157928467,
+          "feature_activation_intervened": 7.939630031585693
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.618144989013672,
+          "feature_activation_orig": 3.7123563289642334,
+          "feature_activation_intervened": 7.424712657928467
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.48845386505127,
+          "feature_activation_orig": 3.6813595294952393,
+          "feature_activation_intervened": 7.3627190589904785
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.36181640625,
+          "feature_activation_orig": 3.667954683303833,
+          "feature_activation_intervened": 7.335909366607666
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.282131195068359,
+          "feature_activation_orig": 3.4955151081085205,
+          "feature_activation_intervened": 6.991030216217041
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.888082027435303,
+          "feature_activation_orig": 3.5794506072998047,
+          "feature_activation_intervened": 7.158901214599609
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.608959197998047,
+          "feature_activation_orig": 3.632970094680786,
+          "feature_activation_intervened": 7.265940189361572
+        }
+      ]
+    },
+    "feature_36662": {
+      "feature_idx": 36662,
+      "avg_change": 8.754149518013001,
+      "avg_activation_orig": 0.020897280778735875,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.297455310821533,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.814796447753906,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.661829471588135,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.154873847961426,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.544507026672363,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.408717155456543,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.408435821533203,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.155457496643066,
+          "feature_activation_orig": 0.021722590550780296,
+          "feature_activation_intervened": 0.04344518110156059
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.745314598083496,
+          "feature_activation_orig": 0.04178947955369949,
+          "feature_activation_intervened": 0.08357895910739899
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.457135200500488,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        }
+      ]
+    },
+    "feature_93844": {
+      "feature_idx": 93844,
+      "avg_change": 8.743403244018555,
+      "avg_activation_orig": 0.015762863592244686,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.205321311950684,
+          "feature_activation_orig": 0.009745809249579906,
+          "feature_activation_intervened": 0.019491618499159813
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.7497758865356445,
+          "feature_activation_orig": 0.04449900984764099,
+          "feature_activation_intervened": 0.08899801969528198
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.672875881195068,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.129745483398438,
+          "feature_activation_orig": 0.09536255151033401,
+          "feature_activation_intervened": 0.19072510302066803
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.520115852355957,
+          "feature_activation_orig": 0.07622312754392624,
+          "feature_activation_intervened": 0.15244625508785248
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.367080688476562,
+          "feature_activation_orig": 0.11282578855752945,
+          "feature_activation_intervened": 0.2256515771150589
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.384966850280762,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.186748027801514,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.795353412628174,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.419145584106445,
+          "feature_activation_orig": 0.0032196820247918367,
+          "feature_activation_intervened": 0.0064393640495836735
+        }
+      ]
+    },
+    "feature_76388": {
+      "feature_idx": 76388,
+      "avg_change": 8.713346810340882,
+      "avg_activation_orig": 1.2708389174938202,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.200242519378662,
+          "feature_activation_orig": 1.3210033178329468,
+          "feature_activation_intervened": 2.6420066356658936
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.728035926818848,
+          "feature_activation_orig": 1.33018159866333,
+          "feature_activation_intervened": 2.66036319732666
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.614290714263916,
+          "feature_activation_orig": 1.3030734062194824,
+          "feature_activation_intervened": 2.606146812438965
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.123929023742676,
+          "feature_activation_orig": 1.3028247356414795,
+          "feature_activation_intervened": 2.605649471282959
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.50257682800293,
+          "feature_activation_orig": 1.3865673542022705,
+          "feature_activation_intervened": 2.773134708404541
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.376755714416504,
+          "feature_activation_orig": 1.2829374074935913,
+          "feature_activation_intervened": 2.5658748149871826
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.32932186126709,
+          "feature_activation_orig": 1.203047275543213,
+          "feature_activation_intervened": 2.406094551086426
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.137161731719971,
+          "feature_activation_orig": 1.3513983488082886,
+          "feature_activation_intervened": 2.702796697616577
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.7413434982299805,
+          "feature_activation_orig": 1.3389979600906372,
+          "feature_activation_intervened": 2.6779959201812744
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.42146110534668,
+          "feature_activation_orig": 1.2592185735702515,
+          "feature_activation_intervened": 2.518437147140503
+        }
+      ]
+    }
+  },
+  "costheta": {
+    "feature_76388": {
+      "feature_idx": 76388,
+      "avg_change": 8.713346810340882,
+      "avg_activation_orig": 1.2708389174938202,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.200242519378662,
+          "feature_activation_orig": 1.3210033178329468,
+          "feature_activation_intervened": 2.6420066356658936
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.728035926818848,
+          "feature_activation_orig": 1.33018159866333,
+          "feature_activation_intervened": 2.66036319732666
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.614290714263916,
+          "feature_activation_orig": 1.3030734062194824,
+          "feature_activation_intervened": 2.606146812438965
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.123929023742676,
+          "feature_activation_orig": 1.3028247356414795,
+          "feature_activation_intervened": 2.605649471282959
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.50257682800293,
+          "feature_activation_orig": 1.3865673542022705,
+          "feature_activation_intervened": 2.773134708404541
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.376755714416504,
+          "feature_activation_orig": 1.2829374074935913,
+          "feature_activation_intervened": 2.5658748149871826
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.32932186126709,
+          "feature_activation_orig": 1.203047275543213,
+          "feature_activation_intervened": 2.406094551086426
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.137161731719971,
+          "feature_activation_orig": 1.3513983488082886,
+          "feature_activation_intervened": 2.702796697616577
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.7413434982299805,
+          "feature_activation_orig": 1.3389979600906372,
+          "feature_activation_intervened": 2.6779959201812744
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.42146110534668,
+          "feature_activation_orig": 1.2592185735702515,
+          "feature_activation_intervened": 2.518437147140503
+        }
+      ]
+    },
+    "feature_36662": {
+      "feature_idx": 36662,
+      "avg_change": 8.754149518013001,
+      "avg_activation_orig": 0.020897280778735875,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.297455310821533,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.814796447753906,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.661829471588135,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.154873847961426,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.544507026672363,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.408717155456543,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.408435821533203,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.155457496643066,
+          "feature_activation_orig": 0.021722590550780296,
+          "feature_activation_intervened": 0.04344518110156059
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.745314598083496,
+          "feature_activation_orig": 0.04178947955369949,
+          "feature_activation_intervened": 0.08357895910739899
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.457135200500488,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        }
+      ]
+    },
+    "feature_108799": {
+      "feature_idx": 108799,
+      "avg_change": 8.720398845672607,
+      "avg_activation_orig": 0.5274205707386136,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.2082390785217285,
+          "feature_activation_orig": 0.19351570308208466,
+          "feature_activation_intervened": 0.3870314061641693
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.751546382904053,
+          "feature_activation_orig": 0.16465434432029724,
+          "feature_activation_intervened": 0.3293086886405945
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.657642841339111,
+          "feature_activation_orig": 0.23464979231357574,
+          "feature_activation_intervened": 0.4692995846271515
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.13329029083252,
+          "feature_activation_orig": 0.7918254733085632,
+          "feature_activation_intervened": 1.5836509466171265
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.52224349975586,
+          "feature_activation_orig": 0.22730301320552826,
+          "feature_activation_intervened": 0.4546060264110565
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.352782249450684,
+          "feature_activation_orig": 0.9605484008789062,
+          "feature_activation_intervened": 1.9210968017578125
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.335772514343262,
+          "feature_activation_orig": 0.6359532475471497,
+          "feature_activation_intervened": 1.2719064950942993
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.235266208648682,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.849274158477783,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.422246932983398,
+          "feature_activation_orig": 0.6067247986793518,
+          "feature_activation_intervened": 1.2134495973587036
+        }
+      ]
+    }
+  },
+  "sintheta": {
+    "feature_43487": {
+      "feature_idx": 43487,
+      "avg_change": 8.742828993797302,
+      "avg_activation_orig": 0.18428107429062948,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.274240970611572,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.778620719909668,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.665213584899902,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.121994018554688,
+          "feature_activation_orig": 0.4786452651023865,
+          "feature_activation_intervened": 0.957290530204773
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.518954277038574,
+          "feature_activation_orig": 0.03781522065401077,
+          "feature_activation_intervened": 0.07563044130802155
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.35957145690918,
+          "feature_activation_orig": 0.46271035075187683,
+          "feature_activation_intervened": 0.9254207015037537
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.376442909240723,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.230215549468994,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.802423000335693,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.418804168701172,
+          "feature_activation_orig": 0.1552959531545639,
+          "feature_activation_intervened": 0.3105919063091278
+        }
+      ]
+    },
+    "feature_37435": {
+      "feature_idx": 37435,
+      "avg_change": 8.821269087791443,
+      "avg_activation_orig": 3.6239642453193666,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.336203575134277,
+          "feature_activation_orig": 3.6261966228485107,
+          "feature_activation_intervened": 7.2523932456970215
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.859078407287598,
+          "feature_activation_orig": 3.7247636318206787,
+          "feature_activation_intervened": 7.449527263641357
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.709108829498291,
+          "feature_activation_orig": 3.66326642036438,
+          "feature_activation_intervened": 7.32653284072876
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.176453590393066,
+          "feature_activation_orig": 3.9698150157928467,
+          "feature_activation_intervened": 7.939630031585693
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.618144989013672,
+          "feature_activation_orig": 3.7123563289642334,
+          "feature_activation_intervened": 7.424712657928467
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.48845386505127,
+          "feature_activation_orig": 3.6813595294952393,
+          "feature_activation_intervened": 7.3627190589904785
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.36181640625,
+          "feature_activation_orig": 3.667954683303833,
+          "feature_activation_intervened": 7.335909366607666
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.282131195068359,
+          "feature_activation_orig": 3.4955151081085205,
+          "feature_activation_intervened": 6.991030216217041
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.888082027435303,
+          "feature_activation_orig": 3.5794506072998047,
+          "feature_activation_intervened": 7.158901214599609
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.608959197998047,
+          "feature_activation_orig": 3.632970094680786,
+          "feature_activation_intervened": 7.265940189361572
+        }
+      ]
+    },
+    "feature_92884": {
+      "feature_idx": 92884,
+      "avg_change": 8.747354712486267,
+      "avg_activation_orig": 0.007205821853131056,
+      "details": [
+        {
+          "target": [
+            -1.0,
+            0.0
+          ],
+          "change_norm": 7.2351579666137695,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.782052993774414,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 6.68589973449707,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 11.137996673583984,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            1.0,
+            0.0
+          ],
+          "change_norm": 9.556642532348633,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.366683006286621,
+          "feature_activation_orig": 0.012682978995144367,
+          "feature_activation_intervened": 0.025365957990288734
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.309812545776367,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.203806400299072,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 7.804374694824219,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        },
+        {
+          "target": [
+            -0.0,
+            -1.0
+          ],
+          "change_norm": 8.452723503112793,
+          "feature_activation_orig": 0.0,
+          "feature_activation_intervened": 2.0
+        }
+      ]
+    }
+  },
+  "random_baseline": {
+    "features": [
+      35072,
+      100853,
+      69972,
+      19732,
+      52977,
+      64499,
+      102503,
+      41086,
+      12258,
+      65147
+    ],
+    "results": [
+      {
+        "feature_idx": 35072,
+        "avg_change": 8.724268937110901,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.209283351898193,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.7472710609436035,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.65239143371582,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.135133743286133,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.5205078125,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.36966323852539,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.364906311035156,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.162158012390137,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.751218318939209,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.42267894744873,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      },
+      {
+        "feature_idx": 100853,
+        "avg_change": 8.724202194213866,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.206960201263428,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.751163482666016,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.656606674194336,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.131068229675293,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.525189399719238,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.368078231811523,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.366288185119629,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.1528215408325195,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.745224475860596,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.424964904785156,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      },
+      {
+        "feature_idx": 69972,
+        "avg_change": 8.725778188705444,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.2108001708984375,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.749416828155518,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.654032230377197,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.130884170532227,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.523116111755371,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.366616249084473,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.36435317993164,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.1681928634643555,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.748805522918701,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.427874565124512,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      },
+      {
+        "feature_idx": 19732,
+        "avg_change": 8.727437410354614,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.214145660400391,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.752737998962402,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.655288219451904,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.13214111328125,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.527872085571289,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.366774559020996,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.366854667663574,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.15952205657959,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.754061698913574,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.43763256072998,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      },
+      {
+        "feature_idx": 52977,
+        "avg_change": 8.724470009803772,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.210151672363281,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.753840446472168,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.659625053405762,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.12996768951416,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.523377418518066,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.372361183166504,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.363286018371582,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.155608654022217,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.754752159118652,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.419939994812012,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      },
+      {
+        "feature_idx": 64499,
+        "avg_change": 8.725514001846314,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.21278715133667,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.759859561920166,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.659914970397949,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.136092185974121,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.526216506958008,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.3816499710083,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.358414649963379,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.161046981811523,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.7536821365356445,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.427067756652832,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      },
+      {
+        "feature_idx": 102503,
+        "avg_change": 8.722977690696716,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.2013654708862305,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.753073215484619,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.666872024536133,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.1337890625,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.523246765136719,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.368196487426758,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.347342491149902,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.15803861618042,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.757591724395752,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.418790817260742,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      },
+      {
+        "feature_idx": 41086,
+        "avg_change": 8.72617925643921,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.206603050231934,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.756966590881348,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.66728401184082,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.13204574584961,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.520801544189453,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.367669105529785,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.365290641784668,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.163313865661621,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.755270957946777,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.42568588256836,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      },
+      {
+        "feature_idx": 12258,
+        "avg_change": 8.724260473251343,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.208341598510742,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.747846603393555,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.662641525268555,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.13487720489502,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.5195951461792,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.373003959655762,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.361202239990234,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.1580047607421875,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.75092887878418,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.41728687286377,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      },
+      {
+        "feature_idx": 65147,
+        "avg_change": 8.727229452133178,
+        "avg_activation_orig": 0.0,
+        "details": [
+          {
+            "target": [
+              -1.0,
+              0.0
+            ],
+            "change_norm": 7.21155309677124,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.74894905090332,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 6.652725696563721,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 11.131731033325195,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              1.0,
+              0.0
+            ],
+            "change_norm": 9.52547550201416,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.36457633972168,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.367210388183594,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.165146350860596,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 7.750515460968018,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          },
+          {
+            "target": [
+              -0.0,
+              -1.0
+            ],
+            "change_norm": 8.43437385559082,
+            "feature_activation_orig": 0.0,
+            "feature_activation_intervened": 2.0
+          }
+        ]
+      }
+    ],
+    "avg_change": 8.725231761455536
+  }
+}

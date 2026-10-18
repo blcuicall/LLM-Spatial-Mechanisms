@@ -1,0 +1,4289 @@
+{
+  "81718": {
+    "top_samples": [
+      {
+        "sample": {
+          "id": 1,
+          "num_steps": 8,
+          "question": "B is left of A.\nC is left of B.\nD is above of A.\nE is right of B.\nF is below of C.\nG is behind of F.\nH is above of C.\nI is above of D.\nWhere is I relative to A?",
+          "answer": "above",
+          "options": [
+            "behind and left and below",
+            "above",
+            "below and behind and left",
+            "front and below and right"
+          ],
+          "correct_option": "B",
+          "target": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -2,
+              0,
+              0
+            ],
+            "D": [
+              0,
+              0,
+              1
+            ],
+            "E": [
+              0,
+              0,
+              0
+            ],
+            "F": [
+              -2,
+              0,
+              -1
+            ],
+            "G": [
+              -2,
+              -1,
+              -1
+            ],
+            "H": [
+              -2,
+              0,
+              1
+            ],
+            "I": [
+              0,
+              0,
+              2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "I"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 2,
+          "num_steps": 9,
+          "question": "B is left of A.\nC is below of B.\nD is above of A.\nE is right of C.\nF is below of D.\nG is front of E.\nH is above of F.\nI is left of C.\nJ is behind of H.\nWhere is J relative to A?",
+          "answer": "above and behind",
+          "options": [
+            "above and behind",
+            "right and front and above",
+            "left and behind and below",
+            "behind and below"
+          ],
+          "correct_option": "A",
+          "target": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -1,
+              0,
+              -1
+            ],
+            "D": [
+              0,
+              0,
+              1
+            ],
+            "E": [
+              0,
+              0,
+              -1
+            ],
+            "F": [
+              0,
+              0,
+              0
+            ],
+            "G": [
+              0,
+              1,
+              -1
+            ],
+            "H": [
+              0,
+              0,
+              1
+            ],
+            "I": [
+              -2,
+              0,
+              -1
+            ],
+            "J": [
+              0,
+              -1,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "J"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 3,
+          "num_steps": 3,
+          "question": "B is below of A.\nC is below of B.\nD is behind of C.\nWhere is A relative to D?",
+          "answer": "above and front",
+          "options": [
+            "front and below and left",
+            "above and front",
+            "left and above and front",
+            "left and above"
+          ],
+          "correct_option": "B",
+          "target": [
+            0.0,
+            2.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              0,
+              -2
+            ],
+            "D": [
+              0,
+              -1,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "D"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 4,
+          "num_steps": 5,
+          "question": "B is below of A.\nC is front of A.\nD is below of B.\nE is above of A.\nF is front of E.\nWhere is F relative to A?",
+          "answer": "above and front",
+          "options": [
+            "right and below and behind",
+            "behind and above and right",
+            "front and above and left",
+            "above and front"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              1,
+              0
+            ],
+            "D": [
+              0,
+              0,
+              -2
+            ],
+            "E": [
+              0,
+              0,
+              1
+            ],
+            "F": [
+              0,
+              1,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 5,
+          "num_steps": 6,
+          "question": "B is below of A.\nC is right of B.\nD is right of A.\nE is behind of A.\nF is front of C.\nG is left of D.\nWhere is A relative to G?",
+          "answer": "overlap",
+          "options": [
+            "front and left",
+            "front and left and below",
+            "above and behind and right",
+            "overlap"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              1,
+              0,
+              -1
+            ],
+            "D": [
+              1,
+              0,
+              0
+            ],
+            "E": [
+              0,
+              -1,
+              0
+            ],
+            "F": [
+              1,
+              1,
+              -1
+            ],
+            "G": [
+              0,
+              0,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "G"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 6,
+          "num_steps": 9,
+          "question": "B is front of A.\nC is behind of B.\nD is front of A.\nE is right of C.\nF is front of B.\nG is behind of D.\nH is below of A.\nI is left of C.\nJ is behind of D.\nWhere is A relative to J?",
+          "answer": "overlap",
+          "options": [
+            "front and left and below",
+            "front and above and right",
+            "above and right and behind",
+            "overlap"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              1,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              0
+            ],
+            "D": [
+              0,
+              1,
+              0
+            ],
+            "E": [
+              1,
+              0,
+              0
+            ],
+            "F": [
+              0,
+              2,
+              0
+            ],
+            "G": [
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              0,
+              -1
+            ],
+            "I": [
+              -1,
+              0,
+              0
+            ],
+            "J": [
+              0,
+              0,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "J"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 7,
+          "num_steps": 9,
+          "question": "B is below of A.\nC is front of A.\nD is behind of A.\nE is front of B.\nF is behind of A.\nG is right of C.\nH is front of C.\nI is left of E.\nJ is above of I.\nWhere is J relative to A?",
+          "answer": "front and left",
+          "options": [
+            "front and left",
+            "left and below",
+            "below and left and behind",
+            "right and front and above"
+          ],
+          "correct_option": "A",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              1,
+              0
+            ],
+            "D": [
+              0,
+              -1,
+              0
+            ],
+            "E": [
+              0,
+              1,
+              -1
+            ],
+            "F": [
+              0,
+              -1,
+              0
+            ],
+            "G": [
+              1,
+              1,
+              0
+            ],
+            "H": [
+              0,
+              2,
+              0
+            ],
+            "I": [
+              -1,
+              1,
+              -1
+            ],
+            "J": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "J"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 8,
+          "num_steps": 5,
+          "question": "B is left of A.\nC is left of B.\nD is below of C.\nE is below of B.\nF is behind of B.\nWhere is F relative to A?",
+          "answer": "behind and left",
+          "options": [
+            "behind and right and above",
+            "behind and above and right",
+            "behind and right and below",
+            "behind and left"
+          ],
+          "correct_option": "D",
+          "target": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -2,
+              0,
+              0
+            ],
+            "D": [
+              -2,
+              0,
+              -1
+            ],
+            "E": [
+              -1,
+              0,
+              -1
+            ],
+            "F": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 9,
+          "num_steps": 4,
+          "question": "B is behind of A.\nC is behind of A.\nD is above of A.\nE is right of C.\nWhere is A relative to E?",
+          "answer": "front and left",
+          "options": [
+            "right and front and above",
+            "left and above and front",
+            "left",
+            "front and left"
+          ],
+          "correct_option": "D",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              -1,
+              0
+            ],
+            "C": [
+              0,
+              -1,
+              0
+            ],
+            "D": [
+              0,
+              0,
+              1
+            ],
+            "E": [
+              1,
+              -1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "E"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 10,
+          "num_steps": 5,
+          "question": "B is below of A.\nC is behind of B.\nD is above of B.\nE is below of B.\nF is below of B.\nWhere is A relative to F?",
+          "answer": "above",
+          "options": [
+            "below and behind and left",
+            "left and behind and below",
+            "right and behind and above",
+            "above"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              -1,
+              -1
+            ],
+            "D": [
+              0,
+              0,
+              0
+            ],
+            "E": [
+              0,
+              0,
+              -2
+            ],
+            "F": [
+              0,
+              0,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 11,
+          "num_steps": 3,
+          "question": "B is front of A.\nC is below of A.\nD is left of B.\nWhere is A relative to D?",
+          "answer": "behind and right",
+          "options": [
+            "left and above",
+            "left and below and behind",
+            "behind and right",
+            "below and right and front"
+          ],
+          "correct_option": "C",
+          "target": [
+            1.0,
+            0.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              1,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "D"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 12,
+          "num_steps": 5,
+          "question": "B is right of A.\nC is below of A.\nD is front of B.\nE is behind of C.\nF is above of D.\nWhere is A relative to F?",
+          "answer": "below and behind and left",
+          "options": [
+            "behind and left and below",
+            "front and below and left",
+            "below and behind and left",
+            "front and below and right"
+          ],
+          "correct_option": "C",
+          "target": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              1,
+              0,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              1,
+              1,
+              0
+            ],
+            "E": [
+              0,
+              -1,
+              -1
+            ],
+            "F": [
+              1,
+              1,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 13,
+          "num_steps": 4,
+          "question": "B is above of A.\nC is below of A.\nD is front of C.\nE is right of B.\nWhere is E relative to A?",
+          "answer": "above and right",
+          "options": [
+            "behind and left and above",
+            "above and right",
+            "behind and below",
+            "right and front and below"
+          ],
+          "correct_option": "B",
+          "target": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              1
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              0,
+              1,
+              -1
+            ],
+            "E": [
+              1,
+              0,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "E"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 14,
+          "num_steps": 5,
+          "question": "B is behind of A.\nC is behind of B.\nD is below of C.\nE is below of A.\nF is below of E.\nWhere is F relative to A?",
+          "answer": "below",
+          "options": [
+            "right and behind and below",
+            "above and left and front",
+            "front and right and above",
+            "below"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              -1,
+              0
+            ],
+            "C": [
+              0,
+              -2,
+              0
+            ],
+            "D": [
+              0,
+              -2,
+              -1
+            ],
+            "E": [
+              0,
+              0,
+              -1
+            ],
+            "F": [
+              0,
+              0,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 15,
+          "num_steps": 7,
+          "question": "B is below of A.\nC is front of A.\nD is left of C.\nE is left of A.\nF is below of B.\nG is above of F.\nH is behind of E.\nWhere is H relative to A?",
+          "answer": "behind and left",
+          "options": [
+            "behind and left",
+            "below and front and right",
+            "behind and above and left",
+            "right and front"
+          ],
+          "correct_option": "A",
+          "target": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              1,
+              0
+            ],
+            "D": [
+              -1,
+              1,
+              0
+            ],
+            "E": [
+              -1,
+              0,
+              0
+            ],
+            "F": [
+              0,
+              0,
+              -2
+            ],
+            "G": [
+              0,
+              0,
+              -1
+            ],
+            "H": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "H"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 16,
+          "num_steps": 8,
+          "question": "B is left of A.\nC is below of B.\nD is below of A.\nE is right of D.\nF is left of B.\nG is right of D.\nH is left of D.\nI is below of E.\nWhere is A relative to I?",
+          "answer": "above and left",
+          "options": [
+            "right and above",
+            "above and left",
+            "right and behind and above",
+            "below and front and right"
+          ],
+          "correct_option": "B",
+          "target": [
+            -1.0,
+            2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -1,
+              0,
+              -1
+            ],
+            "D": [
+              0,
+              0,
+              -1
+            ],
+            "E": [
+              1,
+              0,
+              -1
+            ],
+            "F": [
+              -2,
+              0,
+              0
+            ],
+            "G": [
+              1,
+              0,
+              -1
+            ],
+            "H": [
+              -1,
+              0,
+              -1
+            ],
+            "I": [
+              1,
+              0,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "I"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 17,
+          "num_steps": 6,
+          "question": "B is front of A.\nC is left of B.\nD is right of C.\nE is front of D.\nF is below of C.\nG is left of B.\nWhere is G relative to A?",
+          "answer": "front and left",
+          "options": [
+            "right and below and front",
+            "front and left",
+            "front and above and left",
+            "behind and left and below"
+          ],
+          "correct_option": "B",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              1,
+              0
+            ],
+            "C": [
+              -1,
+              1,
+              0
+            ],
+            "D": [
+              0,
+              1,
+              0
+            ],
+            "E": [
+              0,
+              2,
+              0
+            ],
+            "F": [
+              -1,
+              1,
+              -1
+            ],
+            "G": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "G"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 18,
+          "num_steps": 7,
+          "question": "B is left of A.\nC is above of A.\nD is below of C.\nE is above of A.\nF is left of B.\nG is below of D.\nH is above of E.\nWhere is A relative to H?",
+          "answer": "below",
+          "options": [
+            "behind and left and above",
+            "left and behind and below",
+            "left and front and below",
+            "below"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              1
+            ],
+            "D": [
+              0,
+              0,
+              0
+            ],
+            "E": [
+              0,
+              0,
+              1
+            ],
+            "F": [
+              -2,
+              0,
+              0
+            ],
+            "G": [
+              0,
+              0,
+              -1
+            ],
+            "H": [
+              0,
+              0,
+              2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "H"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 19,
+          "num_steps": 3,
+          "question": "B is left of A.\nC is below of A.\nD is front of B.\nWhere is D relative to A?",
+          "answer": "front and left",
+          "options": [
+            "right and behind and below",
+            "front and left",
+            "below and behind and left",
+            "front"
+          ],
+          "correct_option": "B",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "D"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 20,
+          "num_steps": 5,
+          "question": "B is below of A.\nC is behind of A.\nD is left of B.\nE is below of B.\nF is above of B.\nWhere is A relative to F?",
+          "answer": "overlap",
+          "options": [
+            "overlap",
+            "above and left and behind",
+            "above and front and left",
+            "front and above and right"
+          ],
+          "correct_option": "A",
+          "target": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              -1,
+              0
+            ],
+            "D": [
+              -1,
+              0,
+              -1
+            ],
+            "E": [
+              0,
+              0,
+              -2
+            ],
+            "F": [
+              0,
+              0,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      }
+    ],
+    "spatial_keywords": {},
+    "answer_coords": [],
+    "activation_stats": {
+      "top_mean": 0.0,
+      "top_std": 0.0,
+      "overall_mean": 0.0,
+      "overall_max": 0.0,
+      "nonzero_ratio": 0.0
+    }
+  },
+  "66301": {
+    "top_samples": [
+      {
+        "sample": {
+          "id": 1,
+          "num_steps": 8,
+          "question": "B is left of A.\nC is left of B.\nD is above of A.\nE is right of B.\nF is below of C.\nG is behind of F.\nH is above of C.\nI is above of D.\nWhere is I relative to A?",
+          "answer": "above",
+          "options": [
+            "behind and left and below",
+            "above",
+            "below and behind and left",
+            "front and below and right"
+          ],
+          "correct_option": "B",
+          "target": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -2,
+              0,
+              0
+            ],
+            "D": [
+              0,
+              0,
+              1
+            ],
+            "E": [
+              0,
+              0,
+              0
+            ],
+            "F": [
+              -2,
+              0,
+              -1
+            ],
+            "G": [
+              -2,
+              -1,
+              -1
+            ],
+            "H": [
+              -2,
+              0,
+              1
+            ],
+            "I": [
+              0,
+              0,
+              2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "I"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 2,
+          "num_steps": 9,
+          "question": "B is left of A.\nC is below of B.\nD is above of A.\nE is right of C.\nF is below of D.\nG is front of E.\nH is above of F.\nI is left of C.\nJ is behind of H.\nWhere is J relative to A?",
+          "answer": "above and behind",
+          "options": [
+            "above and behind",
+            "right and front and above",
+            "left and behind and below",
+            "behind and below"
+          ],
+          "correct_option": "A",
+          "target": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -1,
+              0,
+              -1
+            ],
+            "D": [
+              0,
+              0,
+              1
+            ],
+            "E": [
+              0,
+              0,
+              -1
+            ],
+            "F": [
+              0,
+              0,
+              0
+            ],
+            "G": [
+              0,
+              1,
+              -1
+            ],
+            "H": [
+              0,
+              0,
+              1
+            ],
+            "I": [
+              -2,
+              0,
+              -1
+            ],
+            "J": [
+              0,
+              -1,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "J"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 3,
+          "num_steps": 3,
+          "question": "B is below of A.\nC is below of B.\nD is behind of C.\nWhere is A relative to D?",
+          "answer": "above and front",
+          "options": [
+            "front and below and left",
+            "above and front",
+            "left and above and front",
+            "left and above"
+          ],
+          "correct_option": "B",
+          "target": [
+            0.0,
+            2.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              0,
+              -2
+            ],
+            "D": [
+              0,
+              -1,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "D"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 4,
+          "num_steps": 5,
+          "question": "B is below of A.\nC is front of A.\nD is below of B.\nE is above of A.\nF is front of E.\nWhere is F relative to A?",
+          "answer": "above and front",
+          "options": [
+            "right and below and behind",
+            "behind and above and right",
+            "front and above and left",
+            "above and front"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              1,
+              0
+            ],
+            "D": [
+              0,
+              0,
+              -2
+            ],
+            "E": [
+              0,
+              0,
+              1
+            ],
+            "F": [
+              0,
+              1,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 5,
+          "num_steps": 6,
+          "question": "B is below of A.\nC is right of B.\nD is right of A.\nE is behind of A.\nF is front of C.\nG is left of D.\nWhere is A relative to G?",
+          "answer": "overlap",
+          "options": [
+            "front and left",
+            "front and left and below",
+            "above and behind and right",
+            "overlap"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              1,
+              0,
+              -1
+            ],
+            "D": [
+              1,
+              0,
+              0
+            ],
+            "E": [
+              0,
+              -1,
+              0
+            ],
+            "F": [
+              1,
+              1,
+              -1
+            ],
+            "G": [
+              0,
+              0,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "G"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 6,
+          "num_steps": 9,
+          "question": "B is front of A.\nC is behind of B.\nD is front of A.\nE is right of C.\nF is front of B.\nG is behind of D.\nH is below of A.\nI is left of C.\nJ is behind of D.\nWhere is A relative to J?",
+          "answer": "overlap",
+          "options": [
+            "front and left and below",
+            "front and above and right",
+            "above and right and behind",
+            "overlap"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              1,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              0
+            ],
+            "D": [
+              0,
+              1,
+              0
+            ],
+            "E": [
+              1,
+              0,
+              0
+            ],
+            "F": [
+              0,
+              2,
+              0
+            ],
+            "G": [
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              0,
+              -1
+            ],
+            "I": [
+              -1,
+              0,
+              0
+            ],
+            "J": [
+              0,
+              0,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "J"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 7,
+          "num_steps": 9,
+          "question": "B is below of A.\nC is front of A.\nD is behind of A.\nE is front of B.\nF is behind of A.\nG is right of C.\nH is front of C.\nI is left of E.\nJ is above of I.\nWhere is J relative to A?",
+          "answer": "front and left",
+          "options": [
+            "front and left",
+            "left and below",
+            "below and left and behind",
+            "right and front and above"
+          ],
+          "correct_option": "A",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              1,
+              0
+            ],
+            "D": [
+              0,
+              -1,
+              0
+            ],
+            "E": [
+              0,
+              1,
+              -1
+            ],
+            "F": [
+              0,
+              -1,
+              0
+            ],
+            "G": [
+              1,
+              1,
+              0
+            ],
+            "H": [
+              0,
+              2,
+              0
+            ],
+            "I": [
+              -1,
+              1,
+              -1
+            ],
+            "J": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "J"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 8,
+          "num_steps": 5,
+          "question": "B is left of A.\nC is left of B.\nD is below of C.\nE is below of B.\nF is behind of B.\nWhere is F relative to A?",
+          "answer": "behind and left",
+          "options": [
+            "behind and right and above",
+            "behind and above and right",
+            "behind and right and below",
+            "behind and left"
+          ],
+          "correct_option": "D",
+          "target": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -2,
+              0,
+              0
+            ],
+            "D": [
+              -2,
+              0,
+              -1
+            ],
+            "E": [
+              -1,
+              0,
+              -1
+            ],
+            "F": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 9,
+          "num_steps": 4,
+          "question": "B is behind of A.\nC is behind of A.\nD is above of A.\nE is right of C.\nWhere is A relative to E?",
+          "answer": "front and left",
+          "options": [
+            "right and front and above",
+            "left and above and front",
+            "left",
+            "front and left"
+          ],
+          "correct_option": "D",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              -1,
+              0
+            ],
+            "C": [
+              0,
+              -1,
+              0
+            ],
+            "D": [
+              0,
+              0,
+              1
+            ],
+            "E": [
+              1,
+              -1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "E"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 10,
+          "num_steps": 5,
+          "question": "B is below of A.\nC is behind of B.\nD is above of B.\nE is below of B.\nF is below of B.\nWhere is A relative to F?",
+          "answer": "above",
+          "options": [
+            "below and behind and left",
+            "left and behind and below",
+            "right and behind and above",
+            "above"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              -1,
+              -1
+            ],
+            "D": [
+              0,
+              0,
+              0
+            ],
+            "E": [
+              0,
+              0,
+              -2
+            ],
+            "F": [
+              0,
+              0,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 11,
+          "num_steps": 3,
+          "question": "B is front of A.\nC is below of A.\nD is left of B.\nWhere is A relative to D?",
+          "answer": "behind and right",
+          "options": [
+            "left and above",
+            "left and below and behind",
+            "behind and right",
+            "below and right and front"
+          ],
+          "correct_option": "C",
+          "target": [
+            1.0,
+            0.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              1,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "D"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 12,
+          "num_steps": 5,
+          "question": "B is right of A.\nC is below of A.\nD is front of B.\nE is behind of C.\nF is above of D.\nWhere is A relative to F?",
+          "answer": "below and behind and left",
+          "options": [
+            "behind and left and below",
+            "front and below and left",
+            "below and behind and left",
+            "front and below and right"
+          ],
+          "correct_option": "C",
+          "target": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              1,
+              0,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              1,
+              1,
+              0
+            ],
+            "E": [
+              0,
+              -1,
+              -1
+            ],
+            "F": [
+              1,
+              1,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 13,
+          "num_steps": 4,
+          "question": "B is above of A.\nC is below of A.\nD is front of C.\nE is right of B.\nWhere is E relative to A?",
+          "answer": "above and right",
+          "options": [
+            "behind and left and above",
+            "above and right",
+            "behind and below",
+            "right and front and below"
+          ],
+          "correct_option": "B",
+          "target": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              1
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              0,
+              1,
+              -1
+            ],
+            "E": [
+              1,
+              0,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "E"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 14,
+          "num_steps": 5,
+          "question": "B is behind of A.\nC is behind of B.\nD is below of C.\nE is below of A.\nF is below of E.\nWhere is F relative to A?",
+          "answer": "below",
+          "options": [
+            "right and behind and below",
+            "above and left and front",
+            "front and right and above",
+            "below"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              -1,
+              0
+            ],
+            "C": [
+              0,
+              -2,
+              0
+            ],
+            "D": [
+              0,
+              -2,
+              -1
+            ],
+            "E": [
+              0,
+              0,
+              -1
+            ],
+            "F": [
+              0,
+              0,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 15,
+          "num_steps": 7,
+          "question": "B is below of A.\nC is front of A.\nD is left of C.\nE is left of A.\nF is below of B.\nG is above of F.\nH is behind of E.\nWhere is H relative to A?",
+          "answer": "behind and left",
+          "options": [
+            "behind and left",
+            "below and front and right",
+            "behind and above and left",
+            "right and front"
+          ],
+          "correct_option": "A",
+          "target": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              1,
+              0
+            ],
+            "D": [
+              -1,
+              1,
+              0
+            ],
+            "E": [
+              -1,
+              0,
+              0
+            ],
+            "F": [
+              0,
+              0,
+              -2
+            ],
+            "G": [
+              0,
+              0,
+              -1
+            ],
+            "H": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "H"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 16,
+          "num_steps": 8,
+          "question": "B is left of A.\nC is below of B.\nD is below of A.\nE is right of D.\nF is left of B.\nG is right of D.\nH is left of D.\nI is below of E.\nWhere is A relative to I?",
+          "answer": "above and left",
+          "options": [
+            "right and above",
+            "above and left",
+            "right and behind and above",
+            "below and front and right"
+          ],
+          "correct_option": "B",
+          "target": [
+            -1.0,
+            2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -1,
+              0,
+              -1
+            ],
+            "D": [
+              0,
+              0,
+              -1
+            ],
+            "E": [
+              1,
+              0,
+              -1
+            ],
+            "F": [
+              -2,
+              0,
+              0
+            ],
+            "G": [
+              1,
+              0,
+              -1
+            ],
+            "H": [
+              -1,
+              0,
+              -1
+            ],
+            "I": [
+              1,
+              0,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "I"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 17,
+          "num_steps": 6,
+          "question": "B is front of A.\nC is left of B.\nD is right of C.\nE is front of D.\nF is below of C.\nG is left of B.\nWhere is G relative to A?",
+          "answer": "front and left",
+          "options": [
+            "right and below and front",
+            "front and left",
+            "front and above and left",
+            "behind and left and below"
+          ],
+          "correct_option": "B",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              1,
+              0
+            ],
+            "C": [
+              -1,
+              1,
+              0
+            ],
+            "D": [
+              0,
+              1,
+              0
+            ],
+            "E": [
+              0,
+              2,
+              0
+            ],
+            "F": [
+              -1,
+              1,
+              -1
+            ],
+            "G": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "G"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 18,
+          "num_steps": 7,
+          "question": "B is left of A.\nC is above of A.\nD is below of C.\nE is above of A.\nF is left of B.\nG is below of D.\nH is above of E.\nWhere is A relative to H?",
+          "answer": "below",
+          "options": [
+            "behind and left and above",
+            "left and behind and below",
+            "left and front and below",
+            "below"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              1
+            ],
+            "D": [
+              0,
+              0,
+              0
+            ],
+            "E": [
+              0,
+              0,
+              1
+            ],
+            "F": [
+              -2,
+              0,
+              0
+            ],
+            "G": [
+              0,
+              0,
+              -1
+            ],
+            "H": [
+              0,
+              0,
+              2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "H"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 19,
+          "num_steps": 3,
+          "question": "B is left of A.\nC is below of A.\nD is front of B.\nWhere is D relative to A?",
+          "answer": "front and left",
+          "options": [
+            "right and behind and below",
+            "front and left",
+            "below and behind and left",
+            "front"
+          ],
+          "correct_option": "B",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "D"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 20,
+          "num_steps": 5,
+          "question": "B is below of A.\nC is behind of A.\nD is left of B.\nE is below of B.\nF is above of B.\nWhere is A relative to F?",
+          "answer": "overlap",
+          "options": [
+            "overlap",
+            "above and left and behind",
+            "above and front and left",
+            "front and above and right"
+          ],
+          "correct_option": "A",
+          "target": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              -1,
+              0
+            ],
+            "D": [
+              -1,
+              0,
+              -1
+            ],
+            "E": [
+              0,
+              0,
+              -2
+            ],
+            "F": [
+              0,
+              0,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      }
+    ],
+    "spatial_keywords": {},
+    "answer_coords": [],
+    "activation_stats": {
+      "top_mean": 0.0,
+      "top_std": 0.0,
+      "overall_mean": 0.0,
+      "overall_max": 0.0,
+      "nonzero_ratio": 0.0
+    }
+  },
+  "87656": {
+    "top_samples": [
+      {
+        "sample": {
+          "id": 1,
+          "num_steps": 8,
+          "question": "B is left of A.\nC is left of B.\nD is above of A.\nE is right of B.\nF is below of C.\nG is behind of F.\nH is above of C.\nI is above of D.\nWhere is I relative to A?",
+          "answer": "above",
+          "options": [
+            "behind and left and below",
+            "above",
+            "below and behind and left",
+            "front and below and right"
+          ],
+          "correct_option": "B",
+          "target": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -2,
+              0,
+              0
+            ],
+            "D": [
+              0,
+              0,
+              1
+            ],
+            "E": [
+              0,
+              0,
+              0
+            ],
+            "F": [
+              -2,
+              0,
+              -1
+            ],
+            "G": [
+              -2,
+              -1,
+              -1
+            ],
+            "H": [
+              -2,
+              0,
+              1
+            ],
+            "I": [
+              0,
+              0,
+              2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "I"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 2,
+          "num_steps": 9,
+          "question": "B is left of A.\nC is below of B.\nD is above of A.\nE is right of C.\nF is below of D.\nG is front of E.\nH is above of F.\nI is left of C.\nJ is behind of H.\nWhere is J relative to A?",
+          "answer": "above and behind",
+          "options": [
+            "above and behind",
+            "right and front and above",
+            "left and behind and below",
+            "behind and below"
+          ],
+          "correct_option": "A",
+          "target": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -1,
+              0,
+              -1
+            ],
+            "D": [
+              0,
+              0,
+              1
+            ],
+            "E": [
+              0,
+              0,
+              -1
+            ],
+            "F": [
+              0,
+              0,
+              0
+            ],
+            "G": [
+              0,
+              1,
+              -1
+            ],
+            "H": [
+              0,
+              0,
+              1
+            ],
+            "I": [
+              -2,
+              0,
+              -1
+            ],
+            "J": [
+              0,
+              -1,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "J"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 3,
+          "num_steps": 3,
+          "question": "B is below of A.\nC is below of B.\nD is behind of C.\nWhere is A relative to D?",
+          "answer": "above and front",
+          "options": [
+            "front and below and left",
+            "above and front",
+            "left and above and front",
+            "left and above"
+          ],
+          "correct_option": "B",
+          "target": [
+            0.0,
+            2.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              0,
+              -2
+            ],
+            "D": [
+              0,
+              -1,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "D"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 4,
+          "num_steps": 5,
+          "question": "B is below of A.\nC is front of A.\nD is below of B.\nE is above of A.\nF is front of E.\nWhere is F relative to A?",
+          "answer": "above and front",
+          "options": [
+            "right and below and behind",
+            "behind and above and right",
+            "front and above and left",
+            "above and front"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              1,
+              0
+            ],
+            "D": [
+              0,
+              0,
+              -2
+            ],
+            "E": [
+              0,
+              0,
+              1
+            ],
+            "F": [
+              0,
+              1,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 5,
+          "num_steps": 6,
+          "question": "B is below of A.\nC is right of B.\nD is right of A.\nE is behind of A.\nF is front of C.\nG is left of D.\nWhere is A relative to G?",
+          "answer": "overlap",
+          "options": [
+            "front and left",
+            "front and left and below",
+            "above and behind and right",
+            "overlap"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              1,
+              0,
+              -1
+            ],
+            "D": [
+              1,
+              0,
+              0
+            ],
+            "E": [
+              0,
+              -1,
+              0
+            ],
+            "F": [
+              1,
+              1,
+              -1
+            ],
+            "G": [
+              0,
+              0,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "G"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 6,
+          "num_steps": 9,
+          "question": "B is front of A.\nC is behind of B.\nD is front of A.\nE is right of C.\nF is front of B.\nG is behind of D.\nH is below of A.\nI is left of C.\nJ is behind of D.\nWhere is A relative to J?",
+          "answer": "overlap",
+          "options": [
+            "front and left and below",
+            "front and above and right",
+            "above and right and behind",
+            "overlap"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              1,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              0
+            ],
+            "D": [
+              0,
+              1,
+              0
+            ],
+            "E": [
+              1,
+              0,
+              0
+            ],
+            "F": [
+              0,
+              2,
+              0
+            ],
+            "G": [
+              0,
+              0,
+              0
+            ],
+            "H": [
+              0,
+              0,
+              -1
+            ],
+            "I": [
+              -1,
+              0,
+              0
+            ],
+            "J": [
+              0,
+              0,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "J"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 7,
+          "num_steps": 9,
+          "question": "B is below of A.\nC is front of A.\nD is behind of A.\nE is front of B.\nF is behind of A.\nG is right of C.\nH is front of C.\nI is left of E.\nJ is above of I.\nWhere is J relative to A?",
+          "answer": "front and left",
+          "options": [
+            "front and left",
+            "left and below",
+            "below and left and behind",
+            "right and front and above"
+          ],
+          "correct_option": "A",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              1,
+              0
+            ],
+            "D": [
+              0,
+              -1,
+              0
+            ],
+            "E": [
+              0,
+              1,
+              -1
+            ],
+            "F": [
+              0,
+              -1,
+              0
+            ],
+            "G": [
+              1,
+              1,
+              0
+            ],
+            "H": [
+              0,
+              2,
+              0
+            ],
+            "I": [
+              -1,
+              1,
+              -1
+            ],
+            "J": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "J"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 8,
+          "num_steps": 5,
+          "question": "B is left of A.\nC is left of B.\nD is below of C.\nE is below of B.\nF is behind of B.\nWhere is F relative to A?",
+          "answer": "behind and left",
+          "options": [
+            "behind and right and above",
+            "behind and above and right",
+            "behind and right and below",
+            "behind and left"
+          ],
+          "correct_option": "D",
+          "target": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -2,
+              0,
+              0
+            ],
+            "D": [
+              -2,
+              0,
+              -1
+            ],
+            "E": [
+              -1,
+              0,
+              -1
+            ],
+            "F": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 9,
+          "num_steps": 4,
+          "question": "B is behind of A.\nC is behind of A.\nD is above of A.\nE is right of C.\nWhere is A relative to E?",
+          "answer": "front and left",
+          "options": [
+            "right and front and above",
+            "left and above and front",
+            "left",
+            "front and left"
+          ],
+          "correct_option": "D",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              -1,
+              0
+            ],
+            "C": [
+              0,
+              -1,
+              0
+            ],
+            "D": [
+              0,
+              0,
+              1
+            ],
+            "E": [
+              1,
+              -1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "E"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 10,
+          "num_steps": 5,
+          "question": "B is below of A.\nC is behind of B.\nD is above of B.\nE is below of B.\nF is below of B.\nWhere is A relative to F?",
+          "answer": "above",
+          "options": [
+            "below and behind and left",
+            "left and behind and below",
+            "right and behind and above",
+            "above"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              -1,
+              -1
+            ],
+            "D": [
+              0,
+              0,
+              0
+            ],
+            "E": [
+              0,
+              0,
+              -2
+            ],
+            "F": [
+              0,
+              0,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 11,
+          "num_steps": 3,
+          "question": "B is front of A.\nC is below of A.\nD is left of B.\nWhere is A relative to D?",
+          "answer": "behind and right",
+          "options": [
+            "left and above",
+            "left and below and behind",
+            "behind and right",
+            "below and right and front"
+          ],
+          "correct_option": "C",
+          "target": [
+            1.0,
+            0.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              1,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "D"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 12,
+          "num_steps": 5,
+          "question": "B is right of A.\nC is below of A.\nD is front of B.\nE is behind of C.\nF is above of D.\nWhere is A relative to F?",
+          "answer": "below and behind and left",
+          "options": [
+            "behind and left and below",
+            "front and below and left",
+            "below and behind and left",
+            "front and below and right"
+          ],
+          "correct_option": "C",
+          "target": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              1,
+              0,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              1,
+              1,
+              0
+            ],
+            "E": [
+              0,
+              -1,
+              -1
+            ],
+            "F": [
+              1,
+              1,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 13,
+          "num_steps": 4,
+          "question": "B is above of A.\nC is below of A.\nD is front of C.\nE is right of B.\nWhere is E relative to A?",
+          "answer": "above and right",
+          "options": [
+            "behind and left and above",
+            "above and right",
+            "behind and below",
+            "right and front and below"
+          ],
+          "correct_option": "B",
+          "target": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              1
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              0,
+              1,
+              -1
+            ],
+            "E": [
+              1,
+              0,
+              1
+            ]
+          },
+          "query_entities": [
+            "A",
+            "E"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 14,
+          "num_steps": 5,
+          "question": "B is behind of A.\nC is behind of B.\nD is below of C.\nE is below of A.\nF is below of E.\nWhere is F relative to A?",
+          "answer": "below",
+          "options": [
+            "right and behind and below",
+            "above and left and front",
+            "front and right and above",
+            "below"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              -1,
+              0
+            ],
+            "C": [
+              0,
+              -2,
+              0
+            ],
+            "D": [
+              0,
+              -2,
+              -1
+            ],
+            "E": [
+              0,
+              0,
+              -1
+            ],
+            "F": [
+              0,
+              0,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 15,
+          "num_steps": 7,
+          "question": "B is below of A.\nC is front of A.\nD is left of C.\nE is left of A.\nF is below of B.\nG is above of F.\nH is behind of E.\nWhere is H relative to A?",
+          "answer": "behind and left",
+          "options": [
+            "behind and left",
+            "below and front and right",
+            "behind and above and left",
+            "right and front"
+          ],
+          "correct_option": "A",
+          "target": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              1,
+              0
+            ],
+            "D": [
+              -1,
+              1,
+              0
+            ],
+            "E": [
+              -1,
+              0,
+              0
+            ],
+            "F": [
+              0,
+              0,
+              -2
+            ],
+            "G": [
+              0,
+              0,
+              -1
+            ],
+            "H": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "H"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 16,
+          "num_steps": 8,
+          "question": "B is left of A.\nC is below of B.\nD is below of A.\nE is right of D.\nF is left of B.\nG is right of D.\nH is left of D.\nI is below of E.\nWhere is A relative to I?",
+          "answer": "above and left",
+          "options": [
+            "right and above",
+            "above and left",
+            "right and behind and above",
+            "below and front and right"
+          ],
+          "correct_option": "B",
+          "target": [
+            -1.0,
+            2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              -1,
+              0,
+              -1
+            ],
+            "D": [
+              0,
+              0,
+              -1
+            ],
+            "E": [
+              1,
+              0,
+              -1
+            ],
+            "F": [
+              -2,
+              0,
+              0
+            ],
+            "G": [
+              1,
+              0,
+              -1
+            ],
+            "H": [
+              -1,
+              0,
+              -1
+            ],
+            "I": [
+              1,
+              0,
+              -2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "I"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 17,
+          "num_steps": 6,
+          "question": "B is front of A.\nC is left of B.\nD is right of C.\nE is front of D.\nF is below of C.\nG is left of B.\nWhere is G relative to A?",
+          "answer": "front and left",
+          "options": [
+            "right and below and front",
+            "front and left",
+            "front and above and left",
+            "behind and left and below"
+          ],
+          "correct_option": "B",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              1,
+              0
+            ],
+            "C": [
+              -1,
+              1,
+              0
+            ],
+            "D": [
+              0,
+              1,
+              0
+            ],
+            "E": [
+              0,
+              2,
+              0
+            ],
+            "F": [
+              -1,
+              1,
+              -1
+            ],
+            "G": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "G"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 18,
+          "num_steps": 7,
+          "question": "B is left of A.\nC is above of A.\nD is below of C.\nE is above of A.\nF is left of B.\nG is below of D.\nH is above of E.\nWhere is A relative to H?",
+          "answer": "below",
+          "options": [
+            "behind and left and above",
+            "left and behind and below",
+            "left and front and below",
+            "below"
+          ],
+          "correct_option": "D",
+          "target": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              1
+            ],
+            "D": [
+              0,
+              0,
+              0
+            ],
+            "E": [
+              0,
+              0,
+              1
+            ],
+            "F": [
+              -2,
+              0,
+              0
+            ],
+            "G": [
+              0,
+              0,
+              -1
+            ],
+            "H": [
+              0,
+              0,
+              2
+            ]
+          },
+          "query_entities": [
+            "A",
+            "H"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 19,
+          "num_steps": 3,
+          "question": "B is left of A.\nC is below of A.\nD is front of B.\nWhere is D relative to A?",
+          "answer": "front and left",
+          "options": [
+            "right and behind and below",
+            "front and left",
+            "below and behind and left",
+            "front"
+          ],
+          "correct_option": "B",
+          "target": [
+            -1.0,
+            0.0,
+            1.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              -1,
+              0,
+              0
+            ],
+            "C": [
+              0,
+              0,
+              -1
+            ],
+            "D": [
+              -1,
+              1,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "D"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      },
+      {
+        "sample": {
+          "id": 20,
+          "num_steps": 5,
+          "question": "B is below of A.\nC is behind of A.\nD is left of B.\nE is below of B.\nF is above of B.\nWhere is A relative to F?",
+          "answer": "overlap",
+          "options": [
+            "overlap",
+            "above and left and behind",
+            "above and front and left",
+            "front and above and right"
+          ],
+          "correct_option": "A",
+          "target": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "entities": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "positions": {
+            "A": [
+              0,
+              0,
+              0
+            ],
+            "B": [
+              0,
+              0,
+              -1
+            ],
+            "C": [
+              0,
+              -1,
+              0
+            ],
+            "D": [
+              -1,
+              0,
+              -1
+            ],
+            "E": [
+              0,
+              0,
+              -2
+            ],
+            "F": [
+              0,
+              0,
+              0
+            ]
+          },
+          "query_entities": [
+            "A",
+            "F"
+          ]
+        },
+        "activation": 0.0,
+        "text": ""
+      }
+    ],
+    "spatial_keywords": {},
+    "answer_coords": [],
+    "activation_stats": {
+      "top_mean": 0.0,
+      "top_std": 0.0,
+      "overall_mean": 0.0,
+      "overall_max": 0.0,
+      "nonzero_ratio": 0.0
+    }
+  }
+}

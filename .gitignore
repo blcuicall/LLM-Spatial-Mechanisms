@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.log
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local overrides and machine-specific experiment dumps
+config.local.py
+scripts/env.local.sh
+results_*/

@@ -1,0 +1,5424 @@
+[
+  {
+    "id": 1,
+    "num_steps": 7,
+    "question": "You are facing north.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 2,
+    "num_steps": 7,
+    "question": "You are facing south.\nTurn around.\nTurn right.\nTurn around.\nTurn left.\nTurn left.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "north",
+      "west",
+      "south"
+    ],
+    "correct_option": "C",
+    "start_direction": "south",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 3,
+    "num_steps": 4,
+    "question": "You are facing north.\nTurn around.\nTurn left.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "west",
+      "east",
+      "north",
+      "south"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 4,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn right.\nTurn around.\nTurn left.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 5,
+    "num_steps": 6,
+    "question": "You are facing north.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "west",
+      "north",
+      "east",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 6,
+    "num_steps": 5,
+    "question": "You are facing south.\nTurn right.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 7,
+    "num_steps": 10,
+    "question": "You are facing north.\nTurn around.\nTurn left.\nTurn left.\nTurn left.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "west",
+      "north",
+      "east",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 8,
+    "num_steps": 5,
+    "question": "You are facing east.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "west",
+      "south",
+      "east",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 9,
+    "num_steps": 9,
+    "question": "You are facing south.\nTurn left.\nTurn left.\nTurn right.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 10,
+    "num_steps": 8,
+    "question": "You are facing north.\nTurn left.\nTurn left.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "west",
+      "north",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 11,
+    "num_steps": 3,
+    "question": "You are facing east.\nTurn right.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "west",
+      "north",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 12,
+    "num_steps": 2,
+    "question": "You are facing east.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "west",
+      "north",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 13,
+    "num_steps": 9,
+    "question": "You are facing east.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "north",
+      "east",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 14,
+    "num_steps": 8,
+    "question": "You are facing west.\nTurn left.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "west",
+      "south",
+      "east"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 15,
+    "num_steps": 3,
+    "question": "You are facing south.\nTurn right.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "west",
+      "east",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "south",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 16,
+    "num_steps": 9,
+    "question": "You are facing north.\nTurn left.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "west",
+      "east",
+      "north",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 17,
+    "num_steps": 4,
+    "question": "You are facing west.\nTurn right.\nTurn around.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 18,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 19,
+    "num_steps": 10,
+    "question": "You are facing east.\nTurn around.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\nTurn left.\nTurn left.\nTurn around.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "west",
+      "south",
+      "east",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 20,
+    "num_steps": 7,
+    "question": "You are facing south.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "north",
+      "east",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "south",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 21,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn around.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "west",
+      "south",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 22,
+    "num_steps": 6,
+    "question": "You are facing south.\nTurn left.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 23,
+    "num_steps": 4,
+    "question": "You are facing west.\nTurn right.\nTurn left.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "north",
+      "east",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 24,
+    "num_steps": 2,
+    "question": "You are facing east.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 25,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 26,
+    "num_steps": 8,
+    "question": "You are facing north.\nTurn around.\nTurn left.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 27,
+    "num_steps": 6,
+    "question": "You are facing south.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "south",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 28,
+    "num_steps": 9,
+    "question": "You are facing west.\nTurn left.\nTurn left.\nTurn right.\nTurn around.\nTurn left.\nTurn left.\nTurn around.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 29,
+    "num_steps": 2,
+    "question": "You are facing west.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 30,
+    "num_steps": 5,
+    "question": "You are facing west.\nTurn right.\nTurn left.\nTurn around.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "east",
+      "west",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 31,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn left.\nTurn left.\nTurn right.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 32,
+    "num_steps": 3,
+    "question": "You are facing north.\nTurn left.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 33,
+    "num_steps": 9,
+    "question": "You are facing north.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 34,
+    "num_steps": 2,
+    "question": "You are facing west.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "west",
+      "east",
+      "south"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 35,
+    "num_steps": 7,
+    "question": "You are facing north.\nTurn left.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 36,
+    "num_steps": 7,
+    "question": "You are facing north.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "south",
+      "east",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 37,
+    "num_steps": 3,
+    "question": "You are facing west.\nTurn left.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 38,
+    "num_steps": 10,
+    "question": "You are facing north.\nTurn left.\nTurn around.\nTurn around.\nTurn left.\nTurn left.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "north",
+      "east",
+      "south"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 39,
+    "num_steps": 5,
+    "question": "You are facing south.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "south",
+      "east",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 40,
+    "num_steps": 7,
+    "question": "You are facing south.\nTurn around.\nTurn right.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "east",
+      "west",
+      "south"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 41,
+    "num_steps": 9,
+    "question": "You are facing south.\nTurn left.\nTurn left.\nTurn around.\nTurn left.\nTurn right.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 42,
+    "num_steps": 6,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 43,
+    "num_steps": 4,
+    "question": "You are facing north.\nTurn left.\nTurn around.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 44,
+    "num_steps": 3,
+    "question": "You are facing west.\nTurn right.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "north",
+      "south",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 45,
+    "num_steps": 10,
+    "question": "You are facing east.\nTurn left.\nTurn around.\nTurn left.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "west",
+      "east",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 46,
+    "num_steps": 9,
+    "question": "You are facing west.\nTurn right.\nTurn left.\nTurn left.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "north",
+      "east",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 47,
+    "num_steps": 10,
+    "question": "You are facing north.\nTurn left.\nTurn left.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 48,
+    "num_steps": 3,
+    "question": "You are facing north.\nTurn around.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "west",
+      "east",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 49,
+    "num_steps": 6,
+    "question": "You are facing south.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "C",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 50,
+    "num_steps": 3,
+    "question": "You are facing east.\nTurn right.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 51,
+    "num_steps": 8,
+    "question": "You are facing east.\nTurn left.\nTurn left.\nTurn left.\nTurn around.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 52,
+    "num_steps": 8,
+    "question": "You are facing west.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 53,
+    "num_steps": 7,
+    "question": "You are facing north.\nTurn right.\nTurn right.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 54,
+    "num_steps": 3,
+    "question": "You are facing south.\nTurn around.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "east",
+      "north",
+      "south"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 55,
+    "num_steps": 8,
+    "question": "You are facing south.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "west",
+      "north",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 56,
+    "num_steps": 8,
+    "question": "You are facing east.\nTurn left.\nTurn left.\nTurn around.\nTurn left.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 57,
+    "num_steps": 2,
+    "question": "You are facing west.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "north",
+      "east",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 58,
+    "num_steps": 3,
+    "question": "You are facing east.\nTurn right.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 59,
+    "num_steps": 10,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn around.\nTurn around.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 60,
+    "num_steps": 6,
+    "question": "You are facing south.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "correct_option": "B",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 61,
+    "num_steps": 9,
+    "question": "You are facing north.\nTurn left.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\nTurn left.\nTurn left.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 62,
+    "num_steps": 7,
+    "question": "You are facing west.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\nTurn left.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 63,
+    "num_steps": 5,
+    "question": "You are facing west.\nTurn right.\nTurn around.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "south",
+      "north",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 64,
+    "num_steps": 7,
+    "question": "You are facing south.\nTurn around.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 65,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "north",
+      "east",
+      "south"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 66,
+    "num_steps": 4,
+    "question": "You are facing south.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 67,
+    "num_steps": 2,
+    "question": "You are facing north.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 68,
+    "num_steps": 3,
+    "question": "You are facing west.\nTurn left.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 69,
+    "num_steps": 8,
+    "question": "You are facing east.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "west",
+      "north",
+      "east"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 70,
+    "num_steps": 10,
+    "question": "You are facing north.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "north",
+      "south",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 71,
+    "num_steps": 10,
+    "question": "You are facing west.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "east",
+      "north",
+      "south",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 72,
+    "num_steps": 6,
+    "question": "You are facing west.\nTurn right.\nTurn around.\nTurn left.\nTurn left.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "west",
+      "north",
+      "east"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 73,
+    "num_steps": 3,
+    "question": "You are facing west.\nTurn around.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "north",
+      "east",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 74,
+    "num_steps": 8,
+    "question": "You are facing south.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\nTurn right.\nTurn left.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 75,
+    "num_steps": 6,
+    "question": "You are facing west.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "west",
+      "south",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 76,
+    "num_steps": 4,
+    "question": "You are facing west.\nTurn left.\nTurn left.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "west",
+      "north",
+      "east"
+    ],
+    "correct_option": "B",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 77,
+    "num_steps": 9,
+    "question": "You are facing west.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn left.\nTurn around.\nTurn right.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 78,
+    "num_steps": 7,
+    "question": "You are facing south.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 79,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn left.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "west",
+      "east",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 80,
+    "num_steps": 6,
+    "question": "You are facing east.\nTurn around.\nTurn left.\nTurn around.\nTurn right.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 81,
+    "num_steps": 4,
+    "question": "You are facing west.\nTurn left.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 82,
+    "num_steps": 4,
+    "question": "You are facing west.\nTurn around.\nTurn left.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "north",
+      "south",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 83,
+    "num_steps": 10,
+    "question": "You are facing north.\nTurn around.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 84,
+    "num_steps": 5,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 85,
+    "num_steps": 6,
+    "question": "You are facing east.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "west",
+      "east",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 86,
+    "num_steps": 10,
+    "question": "You are facing south.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 87,
+    "num_steps": 8,
+    "question": "You are facing east.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn right.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "north",
+      "south",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 88,
+    "num_steps": 8,
+    "question": "You are facing west.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn left.\nTurn left.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "west",
+      "east",
+      "north",
+      "south"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 89,
+    "num_steps": 10,
+    "question": "You are facing west.\nTurn around.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "west",
+      "north",
+      "east",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 90,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn around.\nTurn around.\nTurn left.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 91,
+    "num_steps": 6,
+    "question": "You are facing north.\nTurn left.\nTurn around.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 92,
+    "num_steps": 9,
+    "question": "You are facing east.\nTurn right.\nTurn right.\nTurn around.\nTurn left.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 93,
+    "num_steps": 10,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 94,
+    "num_steps": 3,
+    "question": "You are facing north.\nTurn right.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "west",
+      "east",
+      "south"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 95,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn right.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 96,
+    "num_steps": 9,
+    "question": "You are facing east.\nTurn around.\nTurn right.\nTurn left.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 97,
+    "num_steps": 3,
+    "question": "You are facing north.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 98,
+    "num_steps": 9,
+    "question": "You are facing north.\nTurn right.\nTurn right.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 99,
+    "num_steps": 2,
+    "question": "You are facing south.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 100,
+    "num_steps": 9,
+    "question": "You are facing west.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\nTurn left.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "west",
+      "east",
+      "north",
+      "south"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 101,
+    "num_steps": 4,
+    "question": "You are facing south.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 102,
+    "num_steps": 2,
+    "question": "You are facing west.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "south",
+      "north",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 103,
+    "num_steps": 9,
+    "question": "You are facing west.\nTurn left.\nTurn around.\nTurn around.\nTurn left.\nTurn around.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "south",
+      "north",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 104,
+    "num_steps": 8,
+    "question": "You are facing west.\nTurn left.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 105,
+    "num_steps": 3,
+    "question": "You are facing east.\nTurn right.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "south",
+      "north",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 106,
+    "num_steps": 7,
+    "question": "You are facing north.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 107,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "east",
+      "west",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 108,
+    "num_steps": 2,
+    "question": "You are facing west.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 109,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 110,
+    "num_steps": 5,
+    "question": "You are facing south.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 111,
+    "num_steps": 8,
+    "question": "You are facing north.\nTurn left.\nTurn right.\nTurn left.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "west",
+      "east",
+      "south"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 112,
+    "num_steps": 2,
+    "question": "You are facing north.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "west",
+      "south",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 113,
+    "num_steps": 5,
+    "question": "You are facing west.\nTurn left.\nTurn right.\nTurn left.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 114,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn around.\nTurn left.\nTurn left.\nTurn left.\nTurn around.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 115,
+    "num_steps": 2,
+    "question": "You are facing south.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "east",
+      "west",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 116,
+    "num_steps": 9,
+    "question": "You are facing east.\nTurn left.\nTurn right.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 117,
+    "num_steps": 2,
+    "question": "You are facing east.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 118,
+    "num_steps": 9,
+    "question": "You are facing south.\nTurn left.\nTurn left.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "south",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 119,
+    "num_steps": 7,
+    "question": "You are facing north.\nTurn around.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 120,
+    "num_steps": 9,
+    "question": "You are facing north.\nTurn left.\nTurn left.\nTurn left.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "north",
+      "south",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 121,
+    "num_steps": 3,
+    "question": "You are facing east.\nTurn left.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "north",
+      "east",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 122,
+    "num_steps": 3,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "north",
+      "west",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 123,
+    "num_steps": 10,
+    "question": "You are facing west.\nTurn left.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 124,
+    "num_steps": 10,
+    "question": "You are facing west.\nTurn left.\nTurn left.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\nTurn left.\nTurn right.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "correct_option": "B",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 125,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn around.\nTurn left.\nTurn left.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 126,
+    "num_steps": 2,
+    "question": "You are facing south.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "east",
+      "north",
+      "south"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 127,
+    "num_steps": 10,
+    "question": "You are facing east.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 128,
+    "num_steps": 3,
+    "question": "You are facing south.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "south",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 129,
+    "num_steps": 9,
+    "question": "You are facing north.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 130,
+    "num_steps": 7,
+    "question": "You are facing north.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 131,
+    "num_steps": 5,
+    "question": "You are facing west.\nTurn right.\nTurn left.\nTurn right.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "south",
+      "north",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 132,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn left.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "north",
+      "south",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 133,
+    "num_steps": 4,
+    "question": "You are facing east.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "south",
+      "north",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 134,
+    "num_steps": 10,
+    "question": "You are facing north.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "north",
+      "west",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 135,
+    "num_steps": 2,
+    "question": "You are facing west.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "west",
+      "north",
+      "east",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 136,
+    "num_steps": 2,
+    "question": "You are facing west.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "west",
+      "north",
+      "south",
+      "east"
+    ],
+    "correct_option": "B",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 137,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn left.\nTurn around.\nTurn left.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 138,
+    "num_steps": 10,
+    "question": "You are facing north.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 139,
+    "num_steps": 5,
+    "question": "You are facing east.\nTurn right.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 140,
+    "num_steps": 10,
+    "question": "You are facing west.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\nTurn left.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "west",
+      "south",
+      "east",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 141,
+    "num_steps": 5,
+    "question": "You are facing south.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "south",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 142,
+    "num_steps": 10,
+    "question": "You are facing east.\nTurn left.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "east",
+      "west",
+      "south"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 143,
+    "num_steps": 10,
+    "question": "You are facing south.\nTurn left.\nTurn right.\nTurn right.\nTurn around.\nTurn left.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "east",
+      "west",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 144,
+    "num_steps": 7,
+    "question": "You are facing west.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 145,
+    "num_steps": 2,
+    "question": "You are facing south.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "north",
+      "west",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 146,
+    "num_steps": 3,
+    "question": "You are facing north.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "west",
+      "east",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 147,
+    "num_steps": 4,
+    "question": "You are facing east.\nTurn around.\nTurn right.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "west",
+      "south",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 148,
+    "num_steps": 2,
+    "question": "You are facing west.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "west",
+      "east",
+      "north",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 149,
+    "num_steps": 5,
+    "question": "You are facing north.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 150,
+    "num_steps": 7,
+    "question": "You are facing south.\nTurn around.\nTurn left.\nTurn around.\nTurn left.\nTurn left.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 151,
+    "num_steps": 9,
+    "question": "You are facing east.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 152,
+    "num_steps": 3,
+    "question": "You are facing west.\nTurn right.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 153,
+    "num_steps": 9,
+    "question": "You are facing east.\nTurn left.\nTurn around.\nTurn right.\nTurn left.\nTurn left.\nTurn right.\nTurn left.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 154,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn right.\nTurn around.\nTurn right.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 155,
+    "num_steps": 4,
+    "question": "You are facing west.\nTurn left.\nTurn around.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 156,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn around.\nTurn around.\nTurn right.\nTurn around.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 157,
+    "num_steps": 8,
+    "question": "You are facing west.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 158,
+    "num_steps": 4,
+    "question": "You are facing west.\nTurn around.\nTurn around.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 159,
+    "num_steps": 10,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 160,
+    "num_steps": 10,
+    "question": "You are facing east.\nTurn around.\nTurn left.\nTurn left.\nTurn right.\nTurn around.\nTurn left.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 161,
+    "num_steps": 2,
+    "question": "You are facing north.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "west",
+      "south",
+      "east"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 162,
+    "num_steps": 2,
+    "question": "You are facing east.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 163,
+    "num_steps": 3,
+    "question": "You are facing north.\nTurn left.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "south",
+      "east",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 164,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn around.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "west",
+      "south",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 165,
+    "num_steps": 5,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "west",
+      "south",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 166,
+    "num_steps": 2,
+    "question": "You are facing north.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "north",
+      "east",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 167,
+    "num_steps": 10,
+    "question": "You are facing south.\nTurn left.\nTurn around.\nTurn right.\nTurn left.\nTurn left.\nTurn around.\nTurn around.\nTurn around.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "B",
+    "start_direction": "south",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 168,
+    "num_steps": 2,
+    "question": "You are facing south.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 169,
+    "num_steps": 8,
+    "question": "You are facing east.\nTurn right.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 170,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "north",
+      "south",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 171,
+    "num_steps": 3,
+    "question": "You are facing east.\nTurn right.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 172,
+    "num_steps": 7,
+    "question": "You are facing west.\nTurn around.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "south",
+      "west",
+      "east",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 173,
+    "num_steps": 3,
+    "question": "You are facing west.\nTurn right.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "west",
+      "east",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 174,
+    "num_steps": 6,
+    "question": "You are facing west.\nTurn left.\nTurn left.\nTurn left.\nTurn right.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "south",
+      "east",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 175,
+    "num_steps": 4,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "west",
+      "north",
+      "east",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 176,
+    "num_steps": 4,
+    "question": "You are facing south.\nTurn around.\nTurn around.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 177,
+    "num_steps": 3,
+    "question": "You are facing west.\nTurn around.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 178,
+    "num_steps": 9,
+    "question": "You are facing east.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\nTurn right.\nTurn around.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "north",
+      "east",
+      "west",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 179,
+    "num_steps": 7,
+    "question": "You are facing west.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\nTurn right.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 180,
+    "num_steps": 6,
+    "question": "You are facing west.\nTurn around.\nTurn right.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "east",
+      "south",
+      "north",
+      "west"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 181,
+    "num_steps": 10,
+    "question": "You are facing east.\nTurn left.\nTurn right.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "west",
+      "east",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 182,
+    "num_steps": 9,
+    "question": "You are facing south.\nTurn left.\nTurn right.\nTurn around.\nTurn left.\nTurn around.\nTurn left.\nTurn around.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "south",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 183,
+    "num_steps": 2,
+    "question": "You are facing north.\nTurn around.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "west",
+      "east",
+      "south",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 184,
+    "num_steps": 7,
+    "question": "You are facing south.\nTurn left.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "east",
+      "north",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "south",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 185,
+    "num_steps": 10,
+    "question": "You are facing north.\nTurn around.\nTurn around.\nTurn left.\nTurn around.\nTurn left.\nTurn left.\nTurn around.\nTurn around.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 186,
+    "num_steps": 3,
+    "question": "You are facing west.\nTurn right.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "south",
+      "west",
+      "east",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 187,
+    "num_steps": 7,
+    "question": "You are facing east.\nTurn around.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "east",
+      "north",
+      "west",
+      "south"
+    ],
+    "correct_option": "C",
+    "start_direction": "east",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 188,
+    "num_steps": 6,
+    "question": "You are facing west.\nTurn right.\nTurn around.\nTurn left.\nTurn right.\nTurn around.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "east",
+      "west",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn right",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn around",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 189,
+    "num_steps": 5,
+    "question": "You are facing west.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "correct_option": "A",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 190,
+    "num_steps": 9,
+    "question": "You are facing west.\nTurn left.\nTurn left.\nTurn right.\nTurn right.\nTurn left.\nTurn right.\nTurn right.\nTurn right.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "correct_option": "D",
+    "start_direction": "west",
+    "end_direction": "north",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 191,
+    "num_steps": 10,
+    "question": "You are facing south.\nTurn right.\nTurn right.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn around.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "north",
+    "options": [
+      "east",
+      "north",
+      "west",
+      "south"
+    ],
+    "correct_option": "B",
+    "start_direction": "south",
+    "end_direction": "north",
+    "actions": [
+      "Turn right",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "id": 192,
+    "num_steps": 9,
+    "question": "You are facing west.\nTurn left.\nTurn around.\nTurn around.\nTurn right.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "south",
+      "east",
+      "west",
+      "north"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "west",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn around",
+      "Turn right",
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn right"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 193,
+    "num_steps": 7,
+    "question": "You are facing west.\nTurn around.\nTurn right.\nTurn right.\nTurn right.\nTurn right.\nTurn left.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "west",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn around"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 194,
+    "num_steps": 9,
+    "question": "You are facing north.\nTurn left.\nTurn left.\nTurn left.\nTurn right.\nTurn left.\nTurn left.\nTurn around.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "east",
+      "south",
+      "west",
+      "north"
+    ],
+    "correct_option": "A",
+    "start_direction": "north",
+    "end_direction": "east",
+    "actions": [
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 195,
+    "num_steps": 3,
+    "question": "You are facing north.\nTurn around.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn around",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 196,
+    "num_steps": 8,
+    "question": "You are facing east.\nTurn around.\nTurn right.\nTurn left.\nTurn left.\nTurn left.\nTurn around.\nTurn left.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "south",
+      "north",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn left",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn left"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 197,
+    "num_steps": 5,
+    "question": "You are facing east.\nTurn right.\nTurn left.\nTurn around.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "east",
+    "options": [
+      "west",
+      "north",
+      "south",
+      "east"
+    ],
+    "correct_option": "D",
+    "start_direction": "east",
+    "end_direction": "east",
+    "actions": [
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 198,
+    "num_steps": 2,
+    "question": "You are facing north.\nTurn right.\nTurn around.\n\nWhich direction are you facing now?",
+    "answer": "west",
+    "options": [
+      "north",
+      "west",
+      "south",
+      "east"
+    ],
+    "correct_option": "B",
+    "start_direction": "north",
+    "end_direction": "west",
+    "actions": [
+      "Turn right",
+      "Turn around"
+    ],
+    "target": [
+      -1.0,
+      0.0
+    ]
+  },
+  {
+    "id": 199,
+    "num_steps": 8,
+    "question": "You are facing north.\nTurn around.\nTurn right.\nTurn right.\nTurn left.\nTurn around.\nTurn left.\nTurn right.\nTurn right.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "correct_option": "D",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn around",
+      "Turn right",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn left",
+      "Turn right",
+      "Turn right"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  },
+  {
+    "id": 200,
+    "num_steps": 6,
+    "question": "You are facing north.\nTurn left.\nTurn around.\nTurn right.\nTurn left.\nTurn around.\nTurn left.\n\nWhich direction are you facing now?",
+    "answer": "south",
+    "options": [
+      "east",
+      "north",
+      "south",
+      "west"
+    ],
+    "correct_option": "C",
+    "start_direction": "north",
+    "end_direction": "south",
+    "actions": [
+      "Turn left",
+      "Turn around",
+      "Turn right",
+      "Turn left",
+      "Turn around",
+      "Turn left"
+    ],
+    "target": [
+      -0.0,
+      -1.0
+    ]
+  }
+]

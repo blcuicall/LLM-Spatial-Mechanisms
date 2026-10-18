@@ -1,0 +1,80 @@
+======================================================================
+SAE ANALYSIS REPORT - Layer 20
+======================================================================
+
+MODEL CONFIGURATION
+----------------------------------------------------------------------
+Layer: 20
+SAE Dimension: 114688
+Target Dimensions: 2
+Dimension Names: cos(θ), sin(θ)
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Ridge Regression:
+  - R²: -0.0161
+  - MAE: 0.5325
+  - R²(cos(θ)): -0.0206
+  - R²(sin(θ)): -0.0117
+
+Lasso Regression (Sparse):
+  - R²: -0.0013
+  - MAE: 0.5063
+  - Non-zero features: 2/114688 (0.00%)
+
+TOP 10 MOST IMPORTANT FEATURES
+----------------------------------------------------------------------
+ 1. Feature 110211 | Importance: 0.526597 | Freq: 0.6535
+ 2. Feature 77668 | Importance: 0.486025 | Freq: 1.0000
+ 3. Feature 66391 | Importance: 0.467491 | Freq: 0.8495
+ 4. Feature 51001 | Importance: 0.459935 | Freq: 0.4695
+ 5. Feature 78948 | Importance: 0.411684 | Freq: 0.2115
+ 6. Feature 49612 | Importance: 0.409890 | Freq: 0.8140
+ 7. Feature 21764 | Importance: 0.385841 | Freq: 1.0000
+ 8. Feature 56827 | Importance: 0.382403 | Freq: 1.0000
+ 9. Feature 75641 | Importance: 0.349296 | Freq: 1.0000
+10. Feature 105252 | Importance: 0.337015 | Freq: 0.8685
+
+TOP FEATURES PER DIMENSION
+----------------------------------------------------------------------
+
+cos(θ):
+  1. Feature 77668 | Coefficient: 0.681288
+  2. Feature 49612 | Coefficient: 0.508674
+  3. Feature 75641 | Coefficient: 0.462464
+  4. Feature 14531 | Coefficient: 0.443079
+  5. Feature 110211 | Coefficient: 0.404690
+
+sin(θ):
+  1. Feature 66391 | Coefficient: 0.746288
+  2. Feature 51001 | Coefficient: 0.648882
+  3. Feature 110211 | Coefficient: 0.648505
+  4. Feature 108421 | Coefficient: 0.577959
+  5. Feature 73144 | Coefficient: 0.489781
+
+
+INTERVENTION EXPERIMENT RESULTS
+----------------------------------------------------------------------
+Random Baseline (avg change): 6.0376
+
+
+Overall Features:
+  Feature 110211 | Change: 6.0723 | Orig Activation: 0.1875
+  Feature 77668 | Change: 6.2985 | Orig Activation: 3.2261
+  Feature 66391 | Change: 6.0580 | Orig Activation: 0.6957
+  Feature 51001 | Change: 6.0950 | Orig Activation: 0.2301
+  Feature 78948 | Change: 6.0931 | Orig Activation: 0.0252
+
+Costheta Features:
+  Feature 77668 | Change: 6.2985 | Orig Activation: 3.2261
+  Feature 49612 | Change: 6.0610 | Orig Activation: 0.1694
+  Feature 75641 | Change: 10.0802 | Orig Activation: 14.5450
+
+Sintheta Features:
+  Feature 66391 | Change: 6.0580 | Orig Activation: 0.6957
+  Feature 51001 | Change: 6.0950 | Orig Activation: 0.2301
+  Feature 110211 | Change: 6.0723 | Orig Activation: 0.1875
+
+======================================================================
+End of Report
+======================================================================

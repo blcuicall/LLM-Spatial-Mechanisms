@@ -1,0 +1,54 @@
+{
+  "by_steps": {
+    "5": {
+      "total": 24,
+      "correct": 8,
+      "accuracy": 33.33333333333333
+    },
+    "3": {
+      "total": 25,
+      "correct": 4,
+      "accuracy": 16.0
+    },
+    "4": {
+      "total": 15,
+      "correct": 4,
+      "accuracy": 26.666666666666668
+    },
+    "7": {
+      "total": 30,
+      "correct": 6,
+      "accuracy": 20.0
+    },
+    "10": {
+      "total": 26,
+      "correct": 9,
+      "accuracy": 34.61538461538461
+    },
+    "6": {
+      "total": 15,
+      "correct": 8,
+      "accuracy": 53.333333333333336
+    },
+    "9": {
+      "total": 25,
+      "correct": 5,
+      "accuracy": 20.0
+    },
+    "8": {
+      "total": 17,
+      "correct": 5,
+      "accuracy": 29.411764705882355
+    },
+    "2": {
+      "total": 23,
+      "correct": 5,
+      "accuracy": 21.73913043478261
+    }
+  },
+  "overall": {
+    "total": 200,
+    "correct": 54,
+    "accuracy": 27.0
+  }
+}
