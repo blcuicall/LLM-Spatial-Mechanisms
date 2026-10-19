@@ -2,6 +2,8 @@
 
 **Spatial Awareness of Large Language Models**
 
+CCL 2026 口头汇报：[论文](https://blcuicall.org/papers/ccl26_ajy.pdf) · [幻灯片](slides/大语言模型空间推理能力的内部表征机制研究汇报_20261017_安纪元_V9.pdf)
+
 研究大语言模型的空间感知：模型能否完成多跳空间推理，以及空间信息如何编码在内部表征中。实验覆盖英文、中文和阿拉伯语，模型为 Qwen2.5-7B 与 Llama-3-8B 的 Base / Instruct 版本。
 
 ## 任务
@@ -148,14 +150,15 @@ python src/activation_patching/task_family_2/run_activation_patching_orientation
 
 ## 引用
 
-安纪元, 杨麟儿, 王梦焰, 鲁鹿鸣, 安维华, 杨尔弘. 大语言模型空间推理能力的内部表征机制研究. 第二十五届中国计算语言学大会 (CCL 2026).
+安纪元, 杨麟儿, 王梦焰, 鲁鹿鸣, 安维华, 杨尔弘. [大语言模型空间推理能力的内部表征机制研究](https://blcuicall.org/papers/ccl26_ajy.pdf). 第二十五届中国计算语言学大会 (CCL 2026)，口头汇报. [幻灯片](slides/大语言模型空间推理能力的内部表征机制研究汇报_20261017_安纪元_V9.pdf).
 
 ```bibtex
 @inproceedings{an2026spatial-repr,
   title     = {大语言模型空间推理能力的内部表征机制研究},
   author    = {安纪元 and 杨麟儿 and 王梦焰 and 鲁鹿鸣 and 安维华 and 杨尔弘},
   booktitle = {第二十五届中国计算语言学大会 (CCL 2026)},
-  year      = {2026}
+  year      = {2026},
+  url       = {https://blcuicall.org/papers/ccl26_ajy.pdf}
 }
 ```
 
